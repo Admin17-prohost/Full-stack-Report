@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background: #0b1a2e;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card */
+.card {
+  background: #0f1c33;
+  padding: 40px;
+  width: 25rem;
+  border-radius: 15px;
+  text-align: center;
+  border: 2px solid #fff;
+  box-shadow: 0 0 30px #00f7ff50;
+}
+
+/* Title */
+.title {
+  color: #ffd700;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+/* Count */
+.count {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* Button Grou */
+.btn {
+  cursor: pointer;
+  font-size: large;
+  font-family: inherit;
+  font-weight: bold;
+  color: #5b0071;
+  background-color: #f8f8fd;
+  padding: 0.6em 1.5em;
+  border-radius: 50em;
+  border: 6px solid #8b93f8;
+  box-shadow: 0px 8px #1f35ff;
+  margin: 10px;
+}
+.btn:active {
+  position: relative;
+  top: 8px;
+  border: 6px solid #646fff;
+  box-shadow: 0px 0px;
+}
